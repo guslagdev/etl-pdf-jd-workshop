@@ -1,0 +1,27 @@
+[project]
+name = "etl-pdf-jd-workshop"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "guslagdev",email = "gustavo.mb.lagares@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "camelot-py (>=1.0.0,<2.0.0)",
+    "opencv-python (>=4.11.0.86,<5.0.0.0)",
+    "matplotlib (>=3.10.3,<4.0.0)",
+    "ghostscript (>=0.8.1,<0.9.0)",
+    "pandas (>=2.3.0,<3.0.0)",
+    "psycopg2-binary (>=2.9.10,<3.0.0)",
+    "sqlalchemy (>=2.0.41,<3.0.0)",
+    "unidecode (>=1.4.0,<2.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "etl_pdf_jd_workshop", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
