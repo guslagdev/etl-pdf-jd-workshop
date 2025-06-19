@@ -1,6 +1,7 @@
 # ETL de Extração de Dados de um PDF
 
-Este projeto realiza um processo de ETL (Extração, Transformação e Carga) para obter dados a partir de arquivos PDF.
+Este projeto realiza um processo de ETL (Extração, Transformação e Carga) para obter dados a partir de arquivos PDF. \
+Seguindo com o produto do ETL, será criado um dashboard para retornar qual ação mais comprada.
 
 ---
 
