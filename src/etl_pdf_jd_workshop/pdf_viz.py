@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 
 # Redrex
-# file_name = 'Redrex - Fatura (22)'
+# file_name = 'Redrex - Fatura (1)'
 # path = os.path.abspath(f"src/etl_pdf_jd_workshop/files/pdf/redrex/{file_name}.pdf")
 
 # Jornada
